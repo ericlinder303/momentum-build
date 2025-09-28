@@ -13,14 +13,6 @@ const Hero = () => {
     <section className="hero-bg min-h-screen flex items-center justify-center text-white pt-20">
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
-          <div className="mb-8 animate-fade-in-up">
-            <img 
-              src={momentumLogo} 
-              alt="Momentum Build" 
-              className="w-24 h-24 mx-auto mb-6 animate-float"
-            />
-          </div>
-          
           <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in-up [animation-delay:0.2s] opacity-0">
             Build Your <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
               Momentum
