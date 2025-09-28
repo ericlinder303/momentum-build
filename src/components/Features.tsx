@@ -39,7 +39,7 @@ const Features = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">
-            Why Choose Momentum Build?
+            Why Choose Gym Buddy?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Combine the power of AI with your dedication to create unstoppable momentum in your fitness journey.
