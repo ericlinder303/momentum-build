@@ -1,3 +1,5 @@
+import gymBuddyApp from "@/assets/gym-buddy-app.png";
+
 const AppPreview = () => {
   return (
     <section id="preview" className="py-20 bg-gradient-to-br from-purple-600 via-pink-500 to-orange-500 text-white">
@@ -24,31 +26,16 @@ const AppPreview = () => {
           
           <div className="flex justify-center">
             <div className="relative">
-              <div className="bg-gray-900 rounded-[3rem] p-6 shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-300">
-                <div className="bg-gray-800 rounded-[2.5rem] p-6 w-72 h-[500px] flex flex-col">
-                  <div className="text-center mb-6">
-                    <h3 className="text-white text-lg font-semibold">Welcome, Alex</h3>
-                    <p className="text-gray-400 text-sm">Ready to build momentum?</p>
-                  </div>
-                  
-                  <div className="flex-1 space-y-4">
-                    <div className="bg-gray-700 rounded-2xl p-4 space-y-3">
-                      <div className="bg-gradient-to-r from-orange-500 to-orange-600 text-white p-3 rounded-xl text-sm">
-                        Hey! I see you crushed yesterday's workout. How about we focus on building momentum with a dynamic upper body session today?
-                      </div>
-                      <div className="bg-gradient-to-r from-blue-500 to-blue-600 text-white p-3 rounded-xl text-sm">
-                        I've customized a workout based on your energy levels and equipment. Want to see it?
-                      </div>
-                    </div>
-                    
-                    <div className="bg-gray-700 rounded-xl p-4 text-center">
-                      <p className="text-white font-semibold mb-2">Today's Goal</p>
-                      <p className="text-gray-300 text-sm">Upper Body Power • 45 min</p>
-                      <p className="text-blue-400 text-sm mt-2">Momentum Score: 92% ⚡</p>
-                    </div>
-                  </div>
-                </div>
+              <div className="transform hover:scale-105 transition-transform duration-300 hover:rotate-1">
+                <img 
+                  src={gymBuddyApp}
+                  alt="Momentum Build App Interface"
+                  className="w-80 max-w-full h-auto rounded-[2.5rem] shadow-2xl border-4 border-gray-800"
+                />
               </div>
+              {/* Floating elements for enhanced visual appeal */}
+              <div className="absolute -top-4 -right-4 w-8 h-8 bg-orange-500 rounded-full animate-bounce opacity-80"></div>
+              <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-blue-500 rounded-full animate-pulse opacity-60"></div>
             </div>
           </div>
         </div>
