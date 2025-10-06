@@ -33,7 +33,7 @@ const Header = () => {
     >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-3">
+          <Link to="/" className="flex items-center space-x-3">
             <img 
               src={momentumLogo} 
               alt="Momentum Build Logo" 
@@ -44,7 +44,7 @@ const Header = () => {
             }`}>
               Momentum Build
             </span>
-          </div>
+          </Link>
           
           <ul className="hidden md:flex space-x-8 items-center">
             {isHomePage && [
