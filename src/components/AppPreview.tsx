@@ -10,7 +10,7 @@ const AppPreview = () => {
               Your Personal Trainer in Your Pocket
             </h2>
             <p className="text-xl opacity-90 leading-relaxed">
-              Gym Buddy combines cutting-edge AI with proven fitness science to create 
+              Gym Buddy combines AI and your fitness insights to create 
               a truly personalized workout experience that evolves with you.
             </p>
             <p className="text-lg opacity-80 leading-relaxed">
