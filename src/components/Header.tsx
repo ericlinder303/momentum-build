@@ -26,7 +26,7 @@ const Header = () => {
   return (
     <header 
       className={`fixed w-full top-0 z-50 transition-all duration-300 ${
-        isScrolled 
+        isScrolled || !isHomePage
           ? "bg-white/95 backdrop-blur-lg border-b border-border shadow-lg" 
           : "glass"
       }`}
@@ -40,13 +40,23 @@ const Header = () => {
               className="w-10 h-10 animate-float"
             />
             <span className={`text-xl font-bold transition-colors duration-300 ${
-              isScrolled ? "text-foreground" : "text-white"
+              isScrolled || !isHomePage ? "text-foreground" : "text-white"
             }`}>
               Momentum Build
             </span>
           </Link>
           
           <ul className="hidden md:flex space-x-8 items-center">
+            <li>
+              <Link
+                to="/"
+                className={`transition-opacity duration-300 hover:opacity-80 ${
+                  isScrolled || !isHomePage ? "text-foreground" : "text-white"
+                }`}
+              >
+                Home
+              </Link>
+            </li>
             {isHomePage && [
               { label: "Features", id: "features" },
               { label: "Preview", id: "preview" },
@@ -56,7 +66,7 @@ const Header = () => {
                 <button
                   onClick={() => scrollToSection(id)}
                   className={`transition-opacity duration-300 hover:opacity-80 ${
-                    isScrolled ? "text-foreground" : "text-white"
+                    isScrolled || !isHomePage ? "text-foreground" : "text-white"
                   }`}
                 >
                   {label}
@@ -67,7 +77,7 @@ const Header = () => {
               <Link
                 to="/about"
                 className={`transition-opacity duration-300 hover:opacity-80 ${
-                  isScrolled ? "text-foreground" : "text-white"
+                  isScrolled || !isHomePage ? "text-foreground" : "text-white"
                 }`}
               >
                 About
