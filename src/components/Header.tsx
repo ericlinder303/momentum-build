@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import momentumLogo from "@/assets/momentum-logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -43,8 +46,8 @@ const Header = () => {
             </span>
           </div>
           
-          <ul className="hidden md:flex space-x-8">
-            {[
+          <ul className="hidden md:flex space-x-8 items-center">
+            {isHomePage && [
               { label: "Features", id: "features" },
               { label: "Preview", id: "preview" },
               { label: "Updates", id: "updates" }
@@ -60,6 +63,16 @@ const Header = () => {
                 </button>
               </li>
             ))}
+            <li>
+              <Link
+                to="/about"
+                className={`transition-opacity duration-300 hover:opacity-80 ${
+                  isScrolled ? "text-foreground" : "text-white"
+                }`}
+              >
+                About
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
