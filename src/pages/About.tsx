@@ -45,6 +45,57 @@ const About = () => {
                 As a technology-focused company, we're committed to creating frictionless experiences that remove barriers between you and your fitness aspirations. We combine cutting-edge technology with deep understanding of what makes workouts effective and sustainable. The result? Tools that work as hard as you do.
               </p>
             </section>
+
+            <section id="terms">
+              <h2 className="text-3xl font-bold mb-4 text-foreground">Terms and Conditions</h2>
+              <div className="space-y-4">
+                <p className="text-lg leading-relaxed text-foreground/90">
+                  By using Momentum Build's services and applications, you agree to the following terms and conditions:
+                </p>
+
+                <div className="space-y-3">
+                  <h3 className="text-xl font-semibold text-foreground">1. Acceptance of Terms</h3>
+                  <p className="text-lg leading-relaxed text-foreground/90">
+                    By accessing and using our applications, you accept and agree to be bound by these Terms and Conditions.
+                  </p>
+                </div>
+
+                <div className="space-y-3">
+                  <h3 className="text-xl font-semibold text-foreground">2. Use of Services</h3>
+                  <p className="text-lg leading-relaxed text-foreground/90">
+                    Our services are intended to support your fitness journey. You are responsible for consulting with healthcare professionals before beginning any fitness program.
+                  </p>
+                </div>
+
+                <div className="space-y-3">
+                  <h3 className="text-xl font-semibold text-foreground">3. User Responsibilities</h3>
+                  <p className="text-lg leading-relaxed text-foreground/90">
+                    You agree to provide accurate information, maintain the security of your account, and use our services in compliance with applicable laws and regulations.
+                  </p>
+                </div>
+
+                <div className="space-y-3">
+                  <h3 className="text-xl font-semibold text-foreground">4. Privacy</h3>
+                  <p className="text-lg leading-relaxed text-foreground/90">
+                    We are committed to protecting your privacy. Your data will be handled in accordance with our Privacy Policy and applicable data protection laws.
+                  </p>
+                </div>
+
+                <div className="space-y-3">
+                  <h3 className="text-xl font-semibold text-foreground">5. Limitation of Liability</h3>
+                  <p className="text-lg leading-relaxed text-foreground/90">
+                    Momentum Build provides fitness technology tools and is not liable for any injuries, health complications, or other damages that may result from your use of our services.
+                  </p>
+                </div>
+
+                <div className="space-y-3">
+                  <h3 className="text-xl font-semibold text-foreground">6. Modifications</h3>
+                  <p className="text-lg leading-relaxed text-foreground/90">
+                    We reserve the right to modify these terms at any time. Continued use of our services after changes constitutes acceptance of the modified terms.
+                  </p>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </main>

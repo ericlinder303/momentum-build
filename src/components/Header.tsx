@@ -83,6 +83,16 @@ const Header = () => {
                 About
               </Link>
             </li>
+            <li>
+              <Link
+                to="/about#terms"
+                className={`transition-opacity duration-300 hover:opacity-80 ${
+                  isScrolled || !isHomePage ? "text-foreground" : "text-white"
+                }`}
+              >
+                Terms
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
