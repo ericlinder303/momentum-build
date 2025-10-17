@@ -15,6 +15,49 @@ const Terms = () => {
             Legal Terms for Gym Buddy by Momentum Build Ltd
           </p>
 
+          {/* Table of Contents */}
+          <nav className="bg-muted/30 p-6 rounded-lg border border-border mb-12">
+            <h2 className="text-2xl font-bold mb-4 text-foreground">Table of Contents</h2>
+            <div className="grid md:grid-cols-2 gap-4">
+              <a
+                href="#eula"
+                className="flex items-center space-x-2 p-3 rounded-lg hover:bg-muted/50 transition-colors"
+              >
+                <span className="text-orange-500 text-xl">📄</span>
+                <span className="text-foreground hover:text-orange-500 transition-colors">
+                  End User License Agreement (EULA)
+                </span>
+              </a>
+              <a
+                href="#terms-of-service"
+                className="flex items-center space-x-2 p-3 rounded-lg hover:bg-muted/50 transition-colors"
+              >
+                <span className="text-orange-500 text-xl">📋</span>
+                <span className="text-foreground hover:text-orange-500 transition-colors">
+                  Terms of Service
+                </span>
+              </a>
+              <a
+                href="#privacy-policy"
+                className="flex items-center space-x-2 p-3 rounded-lg hover:bg-muted/50 transition-colors"
+              >
+                <span className="text-orange-500 text-xl">🔒</span>
+                <span className="text-foreground hover:text-orange-500 transition-colors">
+                  Privacy Policy
+                </span>
+              </a>
+              <a
+                href="#medical-disclaimer"
+                className="flex items-center space-x-2 p-3 rounded-lg hover:bg-muted/50 transition-colors"
+              >
+                <span className="text-orange-500 text-xl">⚕️</span>
+                <span className="text-foreground hover:text-orange-500 transition-colors">
+                  Medical Disclaimer & Health Disclosures
+                </span>
+              </a>
+            </div>
+          </nav>
+
           <div className="space-y-12">
             {/* EULA Section */}
             <section id="eula">
