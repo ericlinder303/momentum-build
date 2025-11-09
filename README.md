@@ -32,6 +32,29 @@ npm run dev
 
 The development server will start at `http://localhost:8080`.
 
+### Newsletter Configuration
+
+The newsletter signup form requires configuration to connect to Google Sheets:
+
+1. Copy `.env.example` to `.env`:
+   ```sh
+   cp .env.example .env
+   ```
+
+2. Follow the complete setup guide in [GOOGLE_SHEETS_SETUP.md](GOOGLE_SHEETS_SETUP.md) to:
+   - Create a Google Sheet for storing signups
+   - Deploy a Google Apps Script web app
+   - Get your newsletter endpoint URL
+
+3. Add your endpoint URL to the `.env` file:
+   ```
+   VITE_NEWSLETTER_ENDPOINT=https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec
+   ```
+
+4. Restart the development server to apply the changes
+
+**Note**: Don't forget to also configure the environment variable in your hosting platform (Netlify/Vercel) for production deployments. See [GOOGLE_SHEETS_SETUP.md](GOOGLE_SHEETS_SETUP.md) Step 5 for details.
+
 ### Available Scripts
 
 - `npm run dev` - Start development server

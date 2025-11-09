@@ -8,21 +8,70 @@ const Newsletter = () => {
   const [isLoading, setIsLoading] = useState(false);
   const { toast } = useToast();
 
+  const validateEmail = (email: string): boolean => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  };
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (!email) return;
+
+    if (!email) {
+      toast({
+        title: "Error",
+        description: "Please enter your email address.",
+        variant: "destructive",
+      });
+      return;
+    }
+
+    if (!validateEmail(email)) {
+      toast({
+        title: "Invalid Email",
+        description: "Please enter a valid email address.",
+        variant: "destructive",
+      });
+      return;
+    }
 
     setIsLoading(true);
-    
-    // Simulate API call
-    setTimeout(() => {
+
+    try {
+      const endpoint = import.meta.env.VITE_NEWSLETTER_ENDPOINT;
+
+      if (!endpoint) {
+        throw new Error("Newsletter endpoint not configured. Please contact support.");
+      }
+
+      const response = await fetch(endpoint, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          email: email,
+          source: "Website",
+        }),
+      });
+
+      // Note: With no-cors mode, we can't read the response, so we assume success
+      // The Google Apps Script will still log any errors on its end
       toast({
         title: "Welcome to Momentum Build!",
         description: `We'll notify ${email} when we launch. Thanks for joining our fitness revolution!`,
       });
       setEmail("");
+    } catch (error) {
+      console.error("Newsletter signup error:", error);
+      toast({
+        title: "Subscription Failed",
+        description: error instanceof Error ? error.message : "An error occurred. Please try again later.",
+        variant: "destructive",
+      });
+    } finally {
       setIsLoading(false);
-    }, 1000);
+    }
   };
 
   return (
