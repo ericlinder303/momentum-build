@@ -1,73 +1,84 @@
+# Momentum Build - Gym Buddy Landing Page
 
+AI-powered fitness platform landing page built with modern web technologies.
 
-## Project info
+## About This Project
 
-**URL**: https://lovable.dev/projects/5ddaa37c-cd6f-42ce-b00a-127ce30a8449
+This is the marketing and landing page for Gym Buddy, the AI-powered fitness companion that helps users build momentum in their fitness journey.
 
-## How can I edit this code?
+**Live URL**: https://www.momentumbuild.co
 
-There are several ways of editing your application.
+## Development Setup
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5ddaa37c-cd6f-42ce-b00a-127ce30a8449) and start prompting.
+- Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Getting Started
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
+# Clone the repository
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd momentum-build
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server with auto-reloading
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The development server will start at `http://localhost:8080`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build in development mode
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build locally
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## Technologies Used
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Fast build tool and dev server
+- **TypeScript** - Type-safe JavaScript
+- **React** - UI library
+- **shadcn/ui** - Component library
+- **Tailwind CSS** - Utility-first CSS framework
+- **React Router** - Client-side routing
 
-## How can I deploy this project?
+## Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/5ddaa37c-cd6f-42ce-b00a-127ce30a8449) and click on Share -> Publish.
+This project can be deployed to any static hosting platform. The repository includes configuration files for popular platforms:
 
-## Can I connect a custom domain to my Lovable project?
+### Netlify
 
-Yes, you can!
+The project includes `netlify.toml` and `public/_redirects` for seamless deployment:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Connect your repository to Netlify
+2. Build command: `npm run build`
+3. Publish directory: `dist`
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Vercel
+
+The project includes `vercel.json` for deployment:
+
+1. Connect your repository to Vercel
+2. Build command: `npm run build`
+3. Output directory: `dist`
+
+### Other Platforms
+
+Any static hosting service that supports single-page applications (SPAs) will work. Make sure to configure your hosting to redirect all routes to `index.html` for client-side routing to work properly.
+
+## Contributing
+
+This is a private project for Momentum Build Ltd. For questions or issues, please contact the development team.
+
+## License
+
+Copyright © 2025 Momentum Build Ltd. All rights reserved.
