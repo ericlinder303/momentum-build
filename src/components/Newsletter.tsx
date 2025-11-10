@@ -45,7 +45,6 @@ const Newsletter = () => {
 
       const response = await fetch(endpoint, {
         method: "POST",
-        mode: "no-cors",
         headers: {
           "Content-Type": "application/json",
         },
@@ -55,13 +54,21 @@ const Newsletter = () => {
         }),
       });
 
-      // Note: With no-cors mode, we can't read the response, so we assume success
-      // The Google Apps Script will still log any errors on its end
-      toast({
-        title: "Welcome to Momentum Build!",
-        description: `We'll notify ${email} when we launch. Thanks for joining our fitness revolution!`,
-      });
-      setEmail("");
+      const result = await response.json();
+
+      if (result.success) {
+        toast({
+          title: "Welcome to Momentum Build!",
+          description: `We'll notify ${email} when we launch. Thanks for joining our fitness revolution!`,
+        });
+        setEmail("");
+      } else {
+        toast({
+          title: "Subscription Failed",
+          description: result.message || "An error occurred. Please try again.",
+          variant: "destructive",
+        });
+      }
     } catch (error) {
       console.error("Newsletter signup error:", error);
       toast({
