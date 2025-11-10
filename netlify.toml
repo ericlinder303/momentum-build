@@ -2,19 +2,10 @@
 # This ensures that all routes are redirected to index.html
 # allowing React Router to handle client-side routing
 
-[build]
-  functions = "netlify/functions"
-
-[dev]
-  command = "npm run dev"
-  targetPort = 8080
-  publish = "dist"
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  force = false
 
 # Optional: Set custom headers for security
 [[headers]]
