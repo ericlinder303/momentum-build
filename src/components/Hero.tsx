@@ -16,7 +16,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in-up [animation-delay:0.2s] opacity-0">
             Build Your <span className="bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
               Momentum
-            </span> using Gym Buddy
+            </span> using Gym Spark
           </h1>
           
           <p className="text-xl md:text-2xl mb-8 opacity-90 animate-fade-in-up [animation-delay:0.4s] opacity-0 max-w-3xl mx-auto leading-relaxed">

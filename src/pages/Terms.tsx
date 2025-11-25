@@ -12,7 +12,7 @@ const Terms = () => {
           </h1>
 
           <p className="text-xl text-muted-foreground mb-12">
-            Legal Terms for Gym Buddy by Momentum Build Ltd
+            Legal Terms for Gym Spark by Momentum Build Ltd
           </p>
 
           {/* Table of Contents */}
@@ -65,7 +65,7 @@ const Terms = () => {
 
               <div className="space-y-6">
                 <div className="bg-muted/50 p-4 rounded-lg border border-border">
-                  <p className="font-semibold text-foreground">Gym Buddy</p>
+                  <p className="font-semibold text-foreground">Gym Spark</p>
                   <p className="text-sm text-muted-foreground">Effective Date: October 17th 2025</p>
                   <p className="text-sm text-muted-foreground">Last Updated: October 17th 2025</p>
                 </div>
@@ -73,7 +73,7 @@ const Terms = () => {
                 <div className="bg-orange-50 dark:bg-orange-950/20 p-6 rounded-lg border-l-4 border-orange-500">
                   <p className="font-bold text-lg mb-2 text-foreground">IMPORTANT – READ CAREFULLY</p>
                   <p className="text-foreground/90 leading-relaxed">
-                    This End User License Agreement ("EULA" or "Agreement") is a legal agreement between you ("User," "you," or "your") and Momentum Build Ltd ("Company," "we," "us," or "our") for the Gym Buddy mobile application software (the "App" or "Software"), including any updates, upgrades, and related documentation.
+                    This End User License Agreement ("EULA" or "Agreement") is a legal agreement between you ("User," "you," or "your") and Momentum Build Ltd ("Company," "we," "us," or "our") for the Gym Spark mobile application software (the "App" or "Software"), including any updates, upgrades, and related documentation.
                   </p>
                   <p className="text-foreground/90 leading-relaxed mt-4 font-semibold">
                     BY DOWNLOADING, INSTALLING, ACCESSING, OR USING THE SOFTWARE, YOU AGREE TO BE BOUND BY THE TERMS OF THIS EULA. IF YOU DO NOT AGREE TO THE TERMS OF THIS EULA, DO NOT DOWNLOAD, INSTALL, ACCESS, OR USE THE SOFTWARE.
@@ -335,7 +335,7 @@ const Terms = () => {
 
               <div className="space-y-6">
                 <div className="bg-muted/50 p-4 rounded-lg border border-border">
-                  <p className="font-semibold text-foreground">Gym Buddy</p>
+                  <p className="font-semibold text-foreground">Gym Spark</p>
                   <p className="text-sm text-muted-foreground">Effective Date: October 17th, 2025</p>
                   <p className="text-sm text-muted-foreground">Last Updated: October 17th, 2025</p>
                 </div>
@@ -344,7 +344,7 @@ const Terms = () => {
                 <div className="space-y-4">
                   <h3 className="text-2xl font-bold text-foreground">1. ACCEPTANCE OF TERMS</h3>
                   <p className="text-foreground/90 leading-relaxed">
-                    Welcome to Gym Buddy, a fitness application operated by Momentum Build Ltd ("Company," "we," "us," or "our"). These Terms of Service ("Terms") govern your access to and use of the Gym Buddy mobile application (the "App") and all related services (collectively, the "Service").
+                    Welcome to Gym Spark, a fitness application operated by Momentum Build Ltd ("Company," "we," "us," or "our"). These Terms of Service ("Terms") govern your access to and use of the Gym Spark mobile application (the "App") and all related services (collectively, the "Service").
                   </p>
                   <p className="text-foreground/90 leading-relaxed">
                     By creating an account, accessing, or using the Service, you agree to be bound by these Terms. If you do not agree to these Terms, you may not access or use the Service.
@@ -389,7 +389,7 @@ const Terms = () => {
                   <div className="space-y-3">
                     <h4 className="text-lg font-semibold text-foreground">3.1 Subscription Model</h4>
                     <p className="text-foreground/90 leading-relaxed">
-                      Gym Buddy operates on a subscription basis. Access to the full features of the Service requires an active paid subscription.
+                      Gym Spark operates on a subscription basis. Access to the full features of the Service requires an active paid subscription.
                     </p>
                   </div>
 
@@ -638,7 +638,7 @@ const Terms = () => {
 
               <div className="space-y-6">
                 <div className="bg-muted/50 p-4 rounded-lg border border-border">
-                  <p className="font-semibold text-foreground">Gym Buddy</p>
+                  <p className="font-semibold text-foreground">Gym Spark</p>
                   <p className="text-sm text-muted-foreground">Effective Date: October 17th, 2025</p>
                   <p className="text-sm text-muted-foreground">Last Updated: October 17th, 2025</p>
                 </div>
@@ -646,7 +646,7 @@ const Terms = () => {
                 <div className="space-y-4">
                   <h3 className="text-2xl font-bold text-foreground">INTRODUCTION</h3>
                   <p className="text-foreground/90 leading-relaxed">
-                    Momentum Build Ltd ("Company," "we," "us," or "our") operates the Gym Buddy mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you use our App and related services (collectively, the "Service").
+                    Momentum Build Ltd ("Company," "we," "us," or "our") operates the Gym Spark mobile application (the "App"). This Privacy Policy explains how we collect, use, disclose, and protect your personal information when you use our App and related services (collectively, the "Service").
                   </p>
                   <p className="text-foreground/90 leading-relaxed">
                     Your privacy is important to us. We are committed to protecting your personal information and being transparent about our data practices.
@@ -851,7 +851,7 @@ const Terms = () => {
                 <div className="space-y-4">
                   <h3 className="text-2xl font-bold text-foreground">10. INTERNATIONAL USERS AND DATA TRANSFERS</h3>
                   <p className="text-foreground/90 leading-relaxed">
-                    Gym Buddy is operated from the United States. Data is transferred to, stored, and processed in the United States. European users have additional GDPR rights including access, rectification, erasure, and data portability.
+                    Gym Spark is operated from the United States. Data is transferred to, stored, and processed in the United States. European users have additional GDPR rights including access, rectification, erasure, and data portability.
                   </p>
                 </div>
 
@@ -948,7 +948,7 @@ const Terms = () => {
 
               <div className="space-y-6">
                 <div className="bg-muted/50 p-4 rounded-lg border border-border">
-                  <p className="font-semibold text-foreground">Gym Buddy</p>
+                  <p className="font-semibold text-foreground">Gym Spark</p>
                   <p className="text-sm text-muted-foreground">Effective Date: October 17th, 2025</p>
                   <p className="text-sm text-muted-foreground">Last Updated: October 17th, 2025</p>
                 </div>
@@ -972,7 +972,7 @@ const Terms = () => {
                       </p>
                     </div>
                     <p className="text-foreground/90 leading-relaxed">
-                      The Gym Buddy application, including all features, content, workout recommendations, and AI-powered assistance (collectively, the "App"), is provided solely for informational, educational, and fitness tracking purposes. The App is designed to help you organize and track your workouts, but it is NOT a substitute for professional medical advice, diagnosis, or treatment.
+                      The Gym Spark application, including all features, content, workout recommendations, and AI-powered assistance (collectively, the "App"), is provided solely for informational, educational, and fitness tracking purposes. The App is designed to help you organize and track your workouts, but it is NOT a substitute for professional medical advice, diagnosis, or treatment.
                     </p>
                   </div>
 
@@ -1277,7 +1277,7 @@ const Terms = () => {
                 {/* Section 7: User Representations */}
                 <div className="space-y-4">
                   <h3 className="text-2xl font-bold text-foreground">7. USER REPRESENTATIONS AND WARRANTIES</h3>
-                  <p className="text-foreground/90 leading-relaxed">By using the Gym Buddy App, you represent and warrant that:</p>
+                  <p className="text-foreground/90 leading-relaxed">By using the Gym Spark App, you represent and warrant that:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
                     <li>You have read and understand this Medical Disclaimer</li>
                     <li>You are in good physical condition and have no medical reasons preventing you from exercising</li>

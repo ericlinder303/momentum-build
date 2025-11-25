@@ -1,10 +1,10 @@
-# Momentum Build - Gym Buddy Landing Page
+# Momentum Build - Gym Spark Landing Page
 
 AI-powered fitness platform landing page built with modern web technologies.
 
 ## About This Project
 
-This is the marketing and landing page for Gym Buddy, the AI-powered fitness companion that helps users build momentum in their fitness journey.
+This is the marketing and landing page for Gym Spark, the AI-powered fitness companion that helps users build momentum in their fitness journey.
 
 **Live URL**: https://www.momentumbuild.co
 

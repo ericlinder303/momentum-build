@@ -1,4 +1,4 @@
-import gymBuddyApp from "@/assets/gym-buddy-app.png";
+import gymSparkApp from "@/assets/gym-spark-app.png";
 
 const AppPreview = () => {
   return (
@@ -10,7 +10,7 @@ const AppPreview = () => {
               Your Personal Trainer in Your Pocket
             </h2>
             <p className="text-xl opacity-90 leading-relaxed">
-              Gym Buddy combines AI and your fitness insights to create 
+              Gym Spark combines AI and your fitness insights to create
               a truly personalized workout experience that evolves with you.
             </p>
             <p className="text-lg opacity-80 leading-relaxed">
@@ -27,8 +27,8 @@ const AppPreview = () => {
           <div className="flex justify-center">
             <div className="relative">
               <div className="transform hover:scale-105 transition-transform duration-300 hover:rotate-1">
-                <img 
-                  src={gymBuddyApp}
+                <img
+                  src={gymSparkApp}
                   alt="Momentum Build App Interface"
                   className="w-80 max-w-full h-auto rounded-[2.5rem] shadow-2xl border-4 border-gray-800"
                 />
