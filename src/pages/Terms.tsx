@@ -190,7 +190,7 @@ const Terms = () => {
                 <div className="space-y-4">
                   <h3 className="text-2xl font-bold text-foreground">5. DATA COLLECTION, PRIVACY, AND SECURITY</h3>
                   <p className="text-foreground/90 leading-relaxed">
-                    Our collection, use, storage, and disclosure of your personal information is governed by our Privacy Policy. Your personal data is stored in iCloud and remains within the United States. Conversations with the Buddy AI assistant are stored for ninety (90) days and then automatically deleted.
+                    Our collection, use, storage, and disclosure of your personal information is governed by our Privacy Policy. Your personal data is stored in iCloud and remains within the United States. Conversations with the Spark AI assistant are stored for ninety (90) days and then automatically deleted.
                   </p>
                 </div>
 
@@ -444,7 +444,7 @@ const Terms = () => {
                       <li>Create, modify, and track workout routines</li>
                       <li>Log exercise sessions, sets, repetitions, and weights</li>
                       <li>Track fitness goals and progress</li>
-                      <li>Interact with the AI-powered "Buddy" feature</li>
+                      <li>Interact with the AI-powered "Spark" feature</li>
                       <li>Integrate health and fitness data from Apple Health</li>
                       <li>Export your personal fitness data</li>
                     </ul>
@@ -468,11 +468,11 @@ const Terms = () => {
                 <div className="space-y-4">
                   <h3 className="text-2xl font-bold text-foreground">5. AI-POWERED FEATURES AND THIRD-PARTY AI SERVICES</h3>
                   <p className="text-foreground/90 leading-relaxed">
-                    The Service includes an AI-powered "Buddy" feature. You may optionally connect third-party AI services using your own API keys, for which you are responsible for all costs and compliance with provider terms.
+                    The Service includes an AI-powered "Spark" feature. You may optionally connect third-party AI services using your own API keys, for which you are responsible for all costs and compliance with provider terms.
                   </p>
                   <div className="bg-red-50 dark:bg-red-950/20 p-4 rounded-lg">
                     <p className="text-foreground/90 leading-relaxed font-semibold">
-                      Buddy is not a certified personal trainer or medical professional. All recommendations are for informational purposes only.
+                      Spark is not a certified personal trainer or medical professional. All recommendations are for informational purposes only.
                     </p>
                   </div>
                 </div>
@@ -668,7 +668,7 @@ const Terms = () => {
                     <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
                       <li>Account information (Apple ID, email, profile details)</li>
                       <li>Workout and fitness data (routines, exercise logs, goals)</li>
-                      <li>AI conversation data (messages to Buddy, responses, preferences)</li>
+                      <li>AI conversation data (messages to Spark, responses, preferences)</li>
                       <li>User settings and preferences</li>
                     </ul>
                   </div>
@@ -893,7 +893,7 @@ const Terms = () => {
                   <h3 className="text-2xl font-bold text-foreground">14. ACCEPTANCE OF THIS POLICY</h3>
                   <div className="bg-blue-50 dark:bg-blue-950/20 p-6 rounded-lg border-l-4 border-blue-500">
                     <p className="text-foreground/90 leading-relaxed font-semibold mb-4">
-                      BY USING GYM BUDDY, YOU ACKNOWLEDGE THAT:
+                      BY USING GYM SPARK, YOU ACKNOWLEDGE THAT:
                     </p>
                     <ul className="list-none space-y-2 ml-4 text-foreground/90">
                       <li>✓ You have read and understand this Privacy Policy</li>
@@ -956,7 +956,7 @@ const Terms = () => {
                 <div className="bg-red-50 dark:bg-red-950/20 p-6 rounded-lg border-l-4 border-red-500">
                   <p className="font-bold text-lg mb-2 text-foreground">IMPORTANT HEALTH AND SAFETY INFORMATION</p>
                   <p className="text-foreground/90 leading-relaxed font-semibold">
-                    PLEASE READ THIS MEDICAL DISCLAIMER CAREFULLY BEFORE USING GYM BUDDY
+                    PLEASE READ THIS MEDICAL DISCLAIMER CAREFULLY BEFORE USING GYM SPARK
                   </p>
                 </div>
 
@@ -968,7 +968,7 @@ const Terms = () => {
                     <h4 className="text-lg font-semibold text-foreground">1.1 General Disclaimer</h4>
                     <div className="bg-red-50 dark:bg-red-950/20 p-4 rounded-lg">
                       <p className="text-foreground/90 leading-relaxed font-semibold">
-                        GYM BUDDY IS NOT A MEDICAL DEVICE AND IS NOT INTENDED TO DIAGNOSE, TREAT, CURE, OR PREVENT ANY DISEASE OR MEDICAL CONDITION.
+                        GYM SPARK IS NOT A MEDICAL DEVICE AND IS NOT INTENDED TO DIAGNOSE, TREAT, CURE, OR PREVENT ANY DISEASE OR MEDICAL CONDITION.
                       </p>
                     </div>
                     <p className="text-foreground/90 leading-relaxed">
@@ -1094,20 +1094,20 @@ const Terms = () => {
                   </div>
                 </div>
 
-                {/* Section 3: AI Buddy Disclaimer */}
+                {/* Section 3: AI Spark Disclaimer */}
                 <div className="space-y-4">
                   <h3 className="text-2xl font-bold text-foreground">3. AI-POWERED BUDDY FEATURE DISCLAIMER</h3>
 
                   <div className="space-y-3">
                     <h4 className="text-lg font-semibold text-foreground">3.1 Informational Purpose Only</h4>
                     <p className="text-foreground/90 leading-relaxed">
-                      The "Buddy" AI assistant feature uses artificial intelligence to provide workout suggestions, exercise recommendations, and conversational support. All recommendations and information provided by Buddy are for informational and educational purposes only and should NOT be considered professional fitness advice or personalized training guidance.
+                      The "Spark" AI assistant feature uses artificial intelligence to provide workout suggestions, exercise recommendations, and conversational support. All recommendations and information provided by Spark are for informational and educational purposes only and should NOT be considered professional fitness advice or personalized training guidance.
                     </p>
                   </div>
 
                   <div className="space-y-3">
                     <h4 className="text-lg font-semibold text-foreground">3.2 Not a Personal Trainer</h4>
-                    <p className="text-foreground/90 leading-relaxed">Buddy is NOT:</p>
+                    <p className="text-foreground/90 leading-relaxed">Spark is NOT:</p>
                     <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
                       <li>A certified personal trainer</li>
                       <li>A physical therapist</li>
@@ -1120,7 +1120,7 @@ const Terms = () => {
                   <div className="space-y-3">
                     <h4 className="text-lg font-semibold text-foreground">3.3 Generalized Recommendations</h4>
                     <p className="text-foreground/90 leading-relaxed">
-                      All workout recommendations provided by Buddy are automated and generalized. Buddy cannot:
+                      All workout recommendations provided by Spark are automated and generalized. Spark cannot:
                     </p>
                     <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
                       <li>Assess your specific medical history or conditions</li>
@@ -1135,7 +1135,7 @@ const Terms = () => {
                     <h4 className="text-lg font-semibold text-foreground">3.4 Your Responsibility</h4>
                     <p className="text-foreground/90 leading-relaxed">YOU are responsible for:</p>
                     <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
-                      <li>Evaluating whether Buddy's recommendations are appropriate for your fitness level and health status</li>
+                      <li>Evaluating whether Spark's recommendations are appropriate for your fitness level and health status</li>
                       <li>Modifying or disregarding recommendations that don't feel right for your body</li>
                       <li>Using proper form and technique when performing exercises</li>
                       <li>Seeking professional guidance if you are unsure about any exercise</li>
@@ -1146,7 +1146,7 @@ const Terms = () => {
                   <div className="space-y-3">
                     <h4 className="text-lg font-semibold text-foreground">3.5 Third-Party AI Services</h4>
                     <p className="text-foreground/90 leading-relaxed">
-                      If you choose to connect third-party AI services (such as OpenAI or Anthropic) to enhance Buddy's functionality:
+                      If you choose to connect third-party AI services (such as OpenAI or Anthropic) to enhance Spark's functionality:
                     </p>
                     <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
                       <li>Those services are not affiliated with Momentum Build Ltd</li>
@@ -1332,7 +1332,7 @@ const Terms = () => {
                   <h3 className="text-2xl font-bold text-foreground">10. ACKNOWLEDGMENT</h3>
                   <div className="bg-orange-50 dark:bg-orange-950/20 p-6 rounded-lg border-l-4 border-orange-500">
                     <p className="text-foreground/90 leading-relaxed font-semibold mb-4">
-                      BY CLICKING "I AGREE" OR BY USING THE GYM BUDDY APP, YOU ACKNOWLEDGE THAT:
+                      BY CLICKING "I AGREE" OR BY USING THE GYM SPARK APP, YOU ACKNOWLEDGE THAT:
                     </p>
                     <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
                       <li>You have read and understand this Medical Disclaimer in its entirety</li>
