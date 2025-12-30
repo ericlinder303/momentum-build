@@ -8,7 +8,7 @@ const About = () => {
       <main className="pt-24 pb-16">
         <div className="container mx-auto px-6 max-w-4xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-orange-400 to-orange-600 bg-clip-text text-transparent">
-            About Momentum Build
+            About Gym Spark
           </h1>
           
           <p className="text-xl text-muted-foreground mb-12">
