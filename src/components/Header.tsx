@@ -37,7 +37,7 @@ const Header = () => {
             <img
               src={gymSparkLogo}
               alt="Gym Spark Logo" 
-              className="w-10 h-10 animate-float"
+              className="h-10 w-auto animate-float"
             />
             <span className={`text-xl font-bold transition-colors duration-300 ${
               isScrolled || !isHomePage ? "text-foreground" : "text-white"
