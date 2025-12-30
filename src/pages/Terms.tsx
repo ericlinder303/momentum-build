@@ -66,8 +66,8 @@ const Terms = () => {
               <div className="space-y-6">
                 <div className="bg-muted/50 p-4 rounded-lg border border-border">
                   <p className="font-semibold text-foreground">Gym Spark</p>
-                  <p className="text-sm text-muted-foreground">Effective Date: October 17th 2025</p>
-                  <p className="text-sm text-muted-foreground">Last Updated: October 17th 2025</p>
+                  <p className="text-sm text-muted-foreground">Effective Date: December 30, 2024</p>
+                  <p className="text-sm text-muted-foreground">Last Updated: December 30, 2024</p>
                 </div>
 
                 <div className="bg-orange-50 dark:bg-orange-950/20 p-6 rounded-lg border-l-4 border-orange-500">
@@ -181,7 +181,10 @@ const Terms = () => {
                   <div className="space-y-3">
                     <h4 className="text-lg font-semibold text-foreground">4.2 Third-Party AI Services</h4>
                     <p className="text-foreground/90 leading-relaxed">
-                      The Software allows you to optionally connect third-party AI service providers by providing your own API keys. You are solely responsible for obtaining, maintaining, and securing your API keys and for all costs incurred through your use of third-party AI services.
+                      The Software uses <span className="font-semibold">Groq</span>, a third-party AI service, to power the Spark AI assistant. When you interact with Spark, your conversation data is transmitted to Groq's servers for processing. For complete details on how your data is handled, see the Privacy Policy Section 2.
+                    </p>
+                    <p className="text-foreground/90 leading-relaxed mt-2">
+                      You may also optionally connect additional third-party AI service providers (such as OpenAI or Anthropic) by providing your own API keys. You are solely responsible for obtaining, maintaining, and securing your API keys and for all costs incurred through your use of these optional third-party AI services.
                     </p>
                   </div>
                 </div>
@@ -336,8 +339,8 @@ const Terms = () => {
               <div className="space-y-6">
                 <div className="bg-muted/50 p-4 rounded-lg border border-border">
                   <p className="font-semibold text-foreground">Gym Spark</p>
-                  <p className="text-sm text-muted-foreground">Effective Date: October 17th, 2025</p>
-                  <p className="text-sm text-muted-foreground">Last Updated: October 17th, 2025</p>
+                  <p className="text-sm text-muted-foreground">Effective Date: December 30, 2024</p>
+                  <p className="text-sm text-muted-foreground">Last Updated: December 30, 2024</p>
                 </div>
 
                 {/* Section 1: Acceptance */}
@@ -482,7 +485,10 @@ const Terms = () => {
                 <div className="space-y-4">
                   <h3 className="text-2xl font-bold text-foreground">5. AI-POWERED FEATURES AND THIRD-PARTY AI SERVICES</h3>
                   <p className="text-foreground/90 leading-relaxed">
-                    The Service includes an AI-powered "Spark" feature. You may optionally connect third-party AI services using your own API keys, for which you are responsible for all costs and compliance with provider terms.
+                    The Service includes an AI-powered "Spark" feature powered by <span className="font-semibold">Groq</span>, a third-party AI service. When you interact with Spark, your conversation data is transmitted to Groq's servers for processing. For complete details on how Groq handles your data, see the Privacy Policy Section 2.
+                  </p>
+                  <p className="text-foreground/90 leading-relaxed mt-2">
+                    You may optionally connect additional third-party AI services (such as OpenAI or Anthropic) using your own API keys, for which you are responsible for all costs and compliance with provider terms.
                   </p>
                   <div className="bg-red-50 dark:bg-red-950/20 p-4 rounded-lg">
                     <p className="text-foreground/90 leading-relaxed font-semibold">
@@ -653,8 +659,8 @@ const Terms = () => {
               <div className="space-y-6">
                 <div className="bg-muted/50 p-4 rounded-lg border border-border">
                   <p className="font-semibold text-foreground">Gym Spark</p>
-                  <p className="text-sm text-muted-foreground">Effective Date: October 17th, 2025</p>
-                  <p className="text-sm text-muted-foreground">Last Updated: October 17th, 2025</p>
+                  <p className="text-sm text-muted-foreground">Effective Date: December 30, 2024</p>
+                  <p className="text-sm text-muted-foreground">Last Updated: December 30, 2024</p>
                 </div>
 
                 <div className="space-y-4">
@@ -682,7 +688,7 @@ const Terms = () => {
                     <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
                       <li>Account information (Apple ID, email, profile details)</li>
                       <li>Workout and fitness data (routines, exercise logs, goals)</li>
-                      <li>AI conversation data (messages to Spark, responses, preferences)</li>
+                      <li>AI conversation data (messages to Spark, responses, preferences) - <span className="font-semibold">This data is transmitted to Groq, our third-party AI provider, for processing as detailed in Section 2</span></li>
                       <li>User settings and preferences</li>
                     </ul>
                   </div>
@@ -708,9 +714,93 @@ const Terms = () => {
                   </div>
                 </div>
 
-                {/* Section 2: How We Use Information */}
+                {/* Section 2: AI-Powered Features (Groq Integration) */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">2. HOW WE USE YOUR INFORMATION</h3>
+                  <h3 className="text-2xl font-bold text-foreground">2. AI-POWERED FEATURES (GROQ INTEGRATION)</h3>
+                  <p className="text-foreground/90 leading-relaxed">
+                    Gym Spark uses <span className="font-semibold">Groq</span>, a third-party artificial intelligence service, to power the "Spark" AI assistant feature. When you interact with Spark, certain data is transmitted to Groq's servers for processing.
+                  </p>
+
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-foreground">2.1 What We Send to Groq</h4>
+                    <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
+                      <li>Your text messages and voice commands to Spark</li>
+                      <li>Workout-related questions and queries</li>
+                      <li>Exercise context and training history relevant to your conversation</li>
+                      <li>Prior conversation history within the same session for context</li>
+                    </ul>
+                  </div>
+
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-foreground">2.2 What We Do NOT Send to Groq</h4>
+                    <ul className="list-none space-y-1 ml-4 text-foreground/90">
+                      <li>❌ Your name, email address, or Apple ID</li>
+                      <li>❌ Your precise location data</li>
+                      <li>❌ Payment or subscription information</li>
+                      <li>❌ Raw Apple Health data (only workout summaries you explicitly discuss)</li>
+                      <li>❌ Personal identifiers that could link conversations to your identity</li>
+                    </ul>
+                  </div>
+
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-foreground">2.3 How Groq Processes Your Data</h4>
+                    <div className="bg-blue-50 dark:bg-blue-950/20 p-4 rounded-lg">
+                      <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
+                        <li><span className="font-semibold">Purpose:</span> Groq processes your queries solely to generate AI-powered responses for the Spark assistant</li>
+                        <li><span className="font-semibold">Retention:</span> Groq may temporarily retain conversation data for up to 90 days for abuse prevention, service quality improvement, and legal compliance</li>
+                        <li><span className="font-semibold">No Training:</span> Groq does NOT use your data to train AI models for other users</li>
+                        <li><span className="font-semibold">No Selling:</span> Groq does NOT sell your data to third parties</li>
+                        <li><span className="font-semibold">No Sharing:</span> Groq does NOT share your data with other companies for their purposes</li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-foreground">2.4 Data Flow</h4>
+                    <div className="bg-muted/50 p-4 rounded-lg border border-border">
+                      <p className="text-foreground/90 leading-relaxed font-mono text-sm">
+                        Your device → Our servers (minimal routing) → Groq's servers (processing) → Response back to you
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-foreground">2.5 Your Control</h4>
+                    <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
+                      <li>You control what information you share in conversations with Spark</li>
+                      <li>Avoid discussing sensitive health information or personal details you wish to keep private</li>
+                      <li>You can request deletion of your conversation history by contacting support@momentumbuild.co</li>
+                      <li>Deleting your account permanently removes all conversation data</li>
+                    </ul>
+                  </div>
+
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-foreground">2.6 Groq's Privacy Policy</h4>
+                    <p className="text-foreground/90 leading-relaxed">
+                      For complete details on Groq's data practices, review their privacy policy at:{" "}
+                      <a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-600 underline">
+                        https://groq.com/privacy-policy/
+                      </a>
+                    </p>
+                  </div>
+
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-foreground">2.7 Alternative AI Services (Optional)</h4>
+                    <p className="text-foreground/90 leading-relaxed">
+                      If you prefer to use your own AI service provider, you may optionally connect OpenAI or Anthropic by providing your own API keys. When using your own API keys:
+                    </p>
+                    <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
+                      <li>Data is sent directly to your chosen provider</li>
+                      <li>You are responsible for compliance with that provider's terms and privacy policy</li>
+                      <li>You incur all costs associated with API usage</li>
+                      <li>We do not have visibility into or control over how those providers handle your data</li>
+                    </ul>
+                  </div>
+                </div>
+
+                {/* Section 3: How We Use Information */}
+                <div className="space-y-4">
+                  <h3 className="text-2xl font-bold text-foreground">3. HOW WE USE YOUR INFORMATION</h3>
                   <p className="text-foreground/90 leading-relaxed">We use your information to:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
                     <li>Provide and maintain the Service</li>
@@ -726,15 +816,15 @@ const Terms = () => {
                   </div>
                 </div>
 
-                {/* Section 3: How We Share Information */}
+                {/* Section 4: How We Share Information */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">3. HOW WE SHARE YOUR INFORMATION</h3>
+                  <h3 className="text-2xl font-bold text-foreground">4. HOW WE SHARE YOUR INFORMATION</h3>
                   <p className="text-foreground/90 leading-relaxed font-semibold">
                     We do not sell, rent, or trade your personal information to third parties for their marketing purposes.
                   </p>
 
                   <div className="space-y-3">
-                    <h4 className="text-lg font-semibold text-foreground">3.1 We Do NOT Share With:</h4>
+                    <h4 className="text-lg font-semibold text-foreground">4.1 We Do NOT Share With:</h4>
                     <ul className="list-none space-y-1 ml-4 text-foreground/90">
                       <li>❌ Advertising companies</li>
                       <li>❌ Data brokers</li>
@@ -745,9 +835,10 @@ const Terms = () => {
                   </div>
 
                   <div className="space-y-3">
-                    <h4 className="text-lg font-semibold text-foreground">3.2 Limited Sharing Circumstances</h4>
+                    <h4 className="text-lg font-semibold text-foreground">4.2 Limited Sharing Circumstances</h4>
                     <p className="text-foreground/90 leading-relaxed">We may share information only:</p>
                     <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
+                      <li><span className="font-semibold">With Groq</span> (for AI-powered Spark assistant functionality as described in Section 2)</li>
                       <li>With your explicit consent</li>
                       <li>With Apple (for iCloud storage and subscriptions)</li>
                       <li>To comply with legal requirements</li>
@@ -756,9 +847,9 @@ const Terms = () => {
                   </div>
                 </div>
 
-                {/* Section 4: Apple Health Special Protections */}
+                {/* Section 5: Apple Health Special Protections */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">4. APPLE HEALTH DATA - SPECIAL PROTECTIONS</h3>
+                  <h3 className="text-2xl font-bold text-foreground">5. APPLE HEALTH DATA - SPECIAL PROTECTIONS</h3>
 
                   <div className="bg-green-50 dark:bg-green-950/20 p-6 rounded-lg border-l-4 border-green-500">
                     <h4 className="text-lg font-semibold text-foreground mb-3">Health Data Will NEVER Be:</h4>
@@ -775,19 +866,19 @@ const Terms = () => {
                   </p>
                 </div>
 
-                {/* Section 5: Data Storage and Security */}
+                {/* Section 6: Data Storage and Security */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">5. DATA STORAGE AND SECURITY</h3>
+                  <h3 className="text-2xl font-bold text-foreground">6. DATA STORAGE AND SECURITY</h3>
 
                   <div className="space-y-3">
-                    <h4 className="text-lg font-semibold text-foreground">5.1 Where We Store Your Data</h4>
+                    <h4 className="text-lg font-semibold text-foreground">6.1 Where We Store Your Data</h4>
                     <p className="text-foreground/90 leading-relaxed">
                       All user data is stored in iCloud on servers located in the United States only. We do not transfer data to servers in other countries.
                     </p>
                   </div>
 
                   <div className="space-y-3">
-                    <h4 className="text-lg font-semibold text-foreground">5.2 How We Protect Your Data</h4>
+                    <h4 className="text-lg font-semibold text-foreground">6.2 How We Protect Your Data</h4>
                     <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
                       <li>Encryption in transit (TLS/SSL) and at rest</li>
                       <li>Strict access controls and monitoring</li>
@@ -803,9 +894,9 @@ const Terms = () => {
                   </div>
                 </div>
 
-                {/* Section 6: Data Retention */}
+                {/* Section 7: Data Retention */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">6. DATA RETENTION</h3>
+                  <h3 className="text-2xl font-bold text-foreground">7. DATA RETENTION</h3>
                   <p className="text-foreground/90 leading-relaxed">We retain data as follows:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
                     <li>Workout logs: Retained indefinitely while your account is active</li>
@@ -814,9 +905,9 @@ const Terms = () => {
                   </ul>
                 </div>
 
-                {/* Section 7: Your Privacy Rights */}
+                {/* Section 8: Your Privacy Rights */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">7. YOUR PRIVACY RIGHTS AND CHOICES</h3>
+                  <h3 className="text-2xl font-bold text-foreground">8. YOUR PRIVACY RIGHTS AND CHOICES</h3>
 
                   <div className="bg-blue-50 dark:bg-blue-950/20 p-6 rounded-lg">
                     <p className="text-foreground/90 leading-relaxed font-semibold mb-3">You have the right to:</p>
@@ -842,17 +933,17 @@ const Terms = () => {
                   </div>
                 </div>
 
-                {/* Section 8: Children's Privacy */}
+                {/* Section 9: Children's Privacy */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">8. CHILDREN'S PRIVACY</h3>
+                  <h3 className="text-2xl font-bold text-foreground">9. CHILDREN'S PRIVACY</h3>
                   <p className="text-foreground/90 leading-relaxed">
                     The App is intended for users aged 13 and older. Users under 18 should have parental consent. We do not knowingly collect information from children under 13.
                   </p>
                 </div>
 
-                {/* Section 9: California Privacy Rights */}
+                {/* Section 10: California Privacy Rights */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">9. CALIFORNIA PRIVACY RIGHTS (CCPA/CPRA)</h3>
+                  <h3 className="text-2xl font-bold text-foreground">10. CALIFORNIA PRIVACY RIGHTS (CCPA/CPRA)</h3>
                   <p className="text-foreground/90 leading-relaxed">
                     California residents have additional rights including the right to know, delete, correct, and opt-out. We do not sell or share personal information, so there is nothing to opt out of.
                   </p>
@@ -861,33 +952,63 @@ const Terms = () => {
                   </p>
                 </div>
 
-                {/* Section 10: International Users */}
+                {/* Section 11: International Users */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">10. INTERNATIONAL USERS AND DATA TRANSFERS</h3>
+                  <h3 className="text-2xl font-bold text-foreground">11. INTERNATIONAL USERS AND DATA TRANSFERS</h3>
                   <p className="text-foreground/90 leading-relaxed">
                     Gym Spark is operated from the United States. Data is transferred to, stored, and processed in the United States. European users have additional GDPR rights including access, rectification, erasure, and data portability.
                   </p>
                 </div>
 
-                {/* Section 11: Third-Party Services */}
+                {/* Section 12: Third-Party Services */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">11. THIRD-PARTY LINKS AND SERVICES</h3>
-                  <p className="text-foreground/90 leading-relaxed">
-                    The App integrates with Apple Health, iCloud, Apple Intelligence, and optionally OpenAI/Anthropic. These services have their own privacy policies. We are not responsible for third-party privacy practices.
+                  <h3 className="text-2xl font-bold text-foreground">12. THIRD-PARTY LINKS AND SERVICES</h3>
+                  <p className="text-foreground/90 leading-relaxed">The App integrates with:</p>
+                  <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
+                    <li><span className="font-semibold">Apple Health and iCloud</span> (for data storage and health tracking)</li>
+                    <li><span className="font-semibold">Groq</span> (required third-party AI service for Spark assistant - see Section 2)</li>
+                    <li><span className="font-semibold">Apple Intelligence</span> (fallback AI service when monthly token limits are reached)</li>
+                    <li><span className="font-semibold">OpenAI or Anthropic</span> (optional, if you choose to connect your own API keys)</li>
+                  </ul>
+                  <p className="text-foreground/90 leading-relaxed mt-4">Each of these services has its own privacy policy:</p>
+                  <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
+                    <li>
+                      <a href="https://groq.com/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-600 underline">
+                        Groq Privacy Policy
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-600 underline">
+                        Apple Privacy Policy
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://openai.com/privacy/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-600 underline">
+                        OpenAI Privacy Policy
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-600 underline">
+                        Anthropic Privacy Policy
+                      </a>
+                    </li>
+                  </ul>
+                  <p className="text-foreground/90 leading-relaxed mt-4">
+                    We are not responsible for the privacy practices of third-party services. For details on how Groq handles your Spark conversation data, see Section 2 above.
                   </p>
                 </div>
 
-                {/* Section 12: Changes to Policy */}
+                {/* Section 13: Changes to Policy */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">12. CHANGES TO THIS PRIVACY POLICY</h3>
+                  <h3 className="text-2xl font-bold text-foreground">13. CHANGES TO THIS PRIVACY POLICY</h3>
                   <p className="text-foreground/90 leading-relaxed">
                     We may update this Privacy Policy at any time. Material changes will be communicated 30 days in advance through in-app notifications. Continued use after changes take effect constitutes acceptance.
                   </p>
                 </div>
 
-                {/* Section 13: Contact */}
+                {/* Section 14: Contact */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">13. CONTACT US</h3>
+                  <h3 className="text-2xl font-bold text-foreground">14. CONTACT US</h3>
                   <p className="text-foreground/90 leading-relaxed">
                     For privacy questions, concerns, or requests:
                   </p>
@@ -902,9 +1023,9 @@ const Terms = () => {
                   </p>
                 </div>
 
-                {/* Section 14: Acceptance */}
+                {/* Section 15: Acceptance */}
                 <div className="space-y-4">
-                  <h3 className="text-2xl font-bold text-foreground">14. ACCEPTANCE OF THIS POLICY</h3>
+                  <h3 className="text-2xl font-bold text-foreground">15. ACCEPTANCE OF THIS POLICY</h3>
                   <div className="bg-blue-50 dark:bg-blue-950/20 p-6 rounded-lg border-l-4 border-blue-500">
                     <p className="text-foreground/90 leading-relaxed font-semibold mb-4">
                       BY USING GYM SPARK, YOU ACKNOWLEDGE THAT:
@@ -924,14 +1045,14 @@ const Terms = () => {
                 {/* Summary */}
                 <div className="bg-muted/50 p-6 rounded-lg border border-border">
                   <h3 className="text-xl font-bold text-foreground mb-4">SUMMARY OF KEY POINTS</h3>
-                  <div className="grid md:grid-cols-2 gap-4">
+                  <div className="grid md:grid-cols-2 gap-6">
                     <div>
                       <p className="font-semibold text-foreground mb-2">What we collect:</p>
                       <ul className="list-disc list-inside space-y-1 text-sm text-foreground/90">
                         <li>Account info (Apple ID)</li>
                         <li>Workout logs</li>
                         <li>Health data (with permission)</li>
-                        <li>AI conversation history</li>
+                        <li>AI conversation history <span className="font-semibold">(processed by Groq - see Section 2)</span></li>
                       </ul>
                     </div>
                     <div>
@@ -939,10 +1060,18 @@ const Terms = () => {
                       <ul className="list-none space-y-1 text-sm text-foreground/90">
                         <li>❌ Sell your data</li>
                         <li>❌ Use for advertising</li>
-                        <li>❌ Share without consent</li>
+                        <li>❌ Share without consent (except Groq for AI functionality)</li>
                         <li>❌ Transfer outside U.S.</li>
                       </ul>
                     </div>
+                  </div>
+                  <div className="mt-4 pt-4 border-t border-border">
+                    <p className="font-semibold text-foreground mb-2">Third-Party Services:</p>
+                    <ul className="list-none space-y-1 text-sm text-foreground/90">
+                      <li>✓ <span className="font-semibold">Groq</span> powers Spark AI assistant (conversations processed on their servers)</li>
+                      <li>✓ <span className="font-semibold">Apple Health & iCloud</span> (data storage)</li>
+                      <li>✓ <span className="font-semibold">Optional:</span> OpenAI/Anthropic (if you connect your own API keys)</li>
+                    </ul>
                   </div>
                   <p className="text-foreground/90 mt-4">
                     <span className="font-semibold">Questions?</span> Email: support@momentumbuild.co
@@ -963,8 +1092,8 @@ const Terms = () => {
               <div className="space-y-6">
                 <div className="bg-muted/50 p-4 rounded-lg border border-border">
                   <p className="font-semibold text-foreground">Gym Spark</p>
-                  <p className="text-sm text-muted-foreground">Effective Date: October 17th, 2025</p>
-                  <p className="text-sm text-muted-foreground">Last Updated: October 17th, 2025</p>
+                  <p className="text-sm text-muted-foreground">Effective Date: December 30, 2024</p>
+                  <p className="text-sm text-muted-foreground">Last Updated: December 30, 2024</p>
                 </div>
 
                 <div className="bg-red-50 dark:bg-red-950/20 p-6 rounded-lg border-l-4 border-red-500">
