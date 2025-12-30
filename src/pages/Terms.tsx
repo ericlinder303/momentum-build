@@ -183,9 +183,6 @@ const Terms = () => {
                     <p className="text-foreground/90 leading-relaxed">
                       The Software uses <span className="font-semibold">Groq</span>, a third-party AI service, to power the Spark AI assistant. When you interact with Spark, your conversation data is transmitted to Groq's servers for processing. For complete details on how your data is handled, see the Privacy Policy Section 2.
                     </p>
-                    <p className="text-foreground/90 leading-relaxed mt-2">
-                      You may also optionally connect additional third-party AI service providers (such as OpenAI or Anthropic) by providing your own API keys. You are solely responsible for obtaining, maintaining, and securing your API keys and for all costs incurred through your use of these optional third-party AI services.
-                    </p>
                   </div>
                 </div>
 
@@ -487,9 +484,6 @@ const Terms = () => {
                   <p className="text-foreground/90 leading-relaxed">
                     The Service includes an AI-powered "Spark" feature powered by <span className="font-semibold">Groq</span>, a third-party AI service. When you interact with Spark, your conversation data is transmitted to Groq's servers for processing. For complete details on how Groq handles your data, see the Privacy Policy Section 2.
                   </p>
-                  <p className="text-foreground/90 leading-relaxed mt-2">
-                    You may optionally connect additional third-party AI services (such as OpenAI or Anthropic) using your own API keys, for which you are responsible for all costs and compliance with provider terms.
-                  </p>
                   <div className="bg-red-50 dark:bg-red-950/20 p-4 rounded-lg">
                     <p className="text-foreground/90 leading-relaxed font-semibold">
                       Spark is not a certified personal trainer or medical professional. All recommendations are for informational purposes only.
@@ -784,18 +778,6 @@ const Terms = () => {
                     </p>
                   </div>
 
-                  <div className="space-y-3">
-                    <h4 className="text-lg font-semibold text-foreground">2.7 Alternative AI Services (Optional)</h4>
-                    <p className="text-foreground/90 leading-relaxed">
-                      If you prefer to use your own AI service provider, you may optionally connect OpenAI or Anthropic by providing your own API keys. When using your own API keys:
-                    </p>
-                    <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
-                      <li>Data is sent directly to your chosen provider</li>
-                      <li>You are responsible for compliance with that provider's terms and privacy policy</li>
-                      <li>You incur all costs associated with API usage</li>
-                      <li>We do not have visibility into or control over how those providers handle your data</li>
-                    </ul>
-                  </div>
                 </div>
 
                 {/* Section 3: How We Use Information */}
@@ -968,7 +950,6 @@ const Terms = () => {
                     <li><span className="font-semibold">Apple Health and iCloud</span> (for data storage and health tracking)</li>
                     <li><span className="font-semibold">Groq</span> (required third-party AI service for Spark assistant - see Section 2)</li>
                     <li><span className="font-semibold">Apple Intelligence</span> (fallback AI service when monthly token limits are reached)</li>
-                    <li><span className="font-semibold">OpenAI or Anthropic</span> (optional, if you choose to connect your own API keys)</li>
                   </ul>
                   <p className="text-foreground/90 leading-relaxed mt-4">Each of these services has its own privacy policy:</p>
                   <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
@@ -980,16 +961,6 @@ const Terms = () => {
                     <li>
                       <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-600 underline">
                         Apple Privacy Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://openai.com/privacy/" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-600 underline">
-                        OpenAI Privacy Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.anthropic.com/privacy" target="_blank" rel="noopener noreferrer" className="text-orange-500 hover:text-orange-600 underline">
-                        Anthropic Privacy Policy
                       </a>
                     </li>
                   </ul>
@@ -1070,7 +1041,6 @@ const Terms = () => {
                     <ul className="list-none space-y-1 text-sm text-foreground/90">
                       <li>✓ <span className="font-semibold">Groq</span> powers Spark AI assistant (conversations processed on their servers)</li>
                       <li>✓ <span className="font-semibold">Apple Health & iCloud</span> (data storage)</li>
-                      <li>✓ <span className="font-semibold">Optional:</span> OpenAI/Anthropic (if you connect your own API keys)</li>
                     </ul>
                   </div>
                   <p className="text-foreground/90 mt-4">
@@ -1289,14 +1259,14 @@ const Terms = () => {
                   <div className="space-y-3">
                     <h4 className="text-lg font-semibold text-foreground">3.5 Third-Party AI Services</h4>
                     <p className="text-foreground/90 leading-relaxed">
-                      If you choose to connect third-party AI services (such as OpenAI or Anthropic) to enhance Spark's functionality:
+                      Spark is powered by Groq, a third-party AI service. Please note:
                     </p>
                     <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
-                      <li>Those services are not affiliated with Momentum Build Ltd</li>
+                      <li>Groq is not affiliated with fitness or medical organizations</li>
                       <li>The AI models are not trained specifically for fitness or medical advice</li>
                       <li>Recommendations may be inaccurate, inappropriate, or potentially harmful</li>
-                      <li>You use third-party AI services entirely at your own risk</li>
-                      <li>We are not responsible for any recommendations made by third-party AI systems</li>
+                      <li>You use AI-powered features entirely at your own risk</li>
+                      <li>We are not responsible for any recommendations made by AI systems</li>
                     </ul>
                   </div>
                 </div>
