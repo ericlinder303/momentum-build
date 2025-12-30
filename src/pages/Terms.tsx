@@ -424,6 +424,20 @@ const Terms = () => {
                       </p>
                     </div>
                   </div>
+
+                  <div className="space-y-3">
+                    <h4 className="text-lg font-semibold text-foreground">3.6 Usage Limits</h4>
+                    <p className="text-foreground/90 leading-relaxed">
+                      Your subscription includes access to AI-powered features subject to the following usage limitations:
+                    </p>
+                    <ul className="list-disc list-inside space-y-2 ml-4 text-foreground/90">
+                      <li><span className="font-semibold">Monthly Token Allocation.</span> Each subscription includes approximately eight hundred thousand (800,000) tokens per calendar month for use with third-party AI services integrated into the Service. Token consumption varies based on the length and complexity of your interactions with AI features.</li>
+                      <li><span className="font-semibold">Fallback Service.</span> Upon reaching your monthly token allocation, AI-powered features will automatically transition to Apple Intelligence for the remainder of the calendar month. Apple Intelligence provides continued AI functionality at no additional cost, though response characteristics may differ from third-party AI services.</li>
+                      <li><span className="font-semibold">Monthly Reset.</span> Your token allocation resets on the first day of each calendar month, regardless of your individual billing date.</li>
+                      <li><span className="font-semibold">No Carryover.</span> Unused tokens do not carry over to subsequent months and have no cash value.</li>
+                      <li><span className="font-semibold">Limit Modifications.</span> We reserve the right to modify usage limits upon thirty (30) days' advance notice as described in Section 13. Any increase in limits shall take effect immediately; any decrease shall take effect at the start of the next billing cycle following the notice period.</li>
+                    </ul>
+                  </div>
                 </div>
 
                 {/* Section 4: Use of Service */}
