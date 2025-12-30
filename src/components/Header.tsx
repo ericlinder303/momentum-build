@@ -42,7 +42,7 @@ const Header = () => {
             <span className={`text-xl font-bold transition-colors duration-300 ${
               isScrolled || !isHomePage ? "text-foreground" : "text-white"
             }`}>
-              Momentum Build
+              Gym Spark
             </span>
           </Link>
           
