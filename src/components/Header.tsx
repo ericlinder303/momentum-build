@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import momentumLogo from "@/assets/momentum-logo.png";
+import gymSparkLogo from "@/assets/gym-spark-logo.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,9 +34,9 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-3">
-            <img 
-              src={momentumLogo} 
-              alt="Momentum Build Logo" 
+            <img
+              src={gymSparkLogo}
+              alt="Gym Spark Logo" 
               className="w-10 h-10 animate-float"
             />
             <span className={`text-xl font-bold transition-colors duration-300 ${
